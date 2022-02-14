@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Add Assignment</title>
+</head>
+<body>
+    <form action="confirmgradeassignment.html">
+        <h1>Add Assignment</h1>
+        <input type="hidden" name="studentName" value="Frodo Baggins" />
+        <div>
+            <label for="assignment-name">Please enter the assignment's name: </label>
+            <input type="text" name="assignmentName" id="assignment-name" />    
+        </div>
+        <div>
+            <label for="grade">Please enter the grade: </label>
+            <input type="number" name="grade" id="grade" />    
+        </div>
+        <button type="submit">Grade Assignment</button>
+    </form>
+    <p><a href="assignment.html?studentName=Frodo+Baggins&assignmentName=Lab+1">Return to assignment</a></p>   
+</body>
+</html>

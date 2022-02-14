@@ -1,0 +1,10 @@
+
+li form {
+    display: inline-block;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+    cursor: default;
+}
